@@ -11,3 +11,51 @@ body {
 }
 
 /* common code */
+/* header section codes */
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 97px;
+    height: 100%;
+    width: 100%;
+}
+.header-title{
+    /* display: flex; */
+width: 708px;
+/* flex-direction: column; */
+/* flex-shrink: 0; */
+color: #272727;
+/* font-family: Lato; */
+font-size: 80px;
+/* font-style: normal; */
+font-weight: 800;
+/* line-height: normal; */
+}
+.header-description{
+    /* display: flex; */
+width: 634px;
+/* flex-direction: column; */
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+/* font-family: Lato; */
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 30px;
+}
+.header-button{
+    /* display: inline-flex; */
+padding: 20px 43px;
+/* align-items: flex-start; */
+/* gap: 10px; */
+border: 0px white;
+border-radius: 8px;
+background: #E55473;
+margin-top: 10px;
+}
+.header-image{
+    width: 635px;
+height: 800px;
+/* flex-shrink: 0; */
+}

@@ -45,6 +45,7 @@ body {
   border-radius: 8px;
   background: #e55473;
   margin-top: 10px;
+  color: white;
 }
 .header-image {
   width: 635px;
@@ -69,8 +70,8 @@ body {
   line-height: 30px;
 }
 /* flowers design */
-.featured-flowers{
-    padding: 0 240px;
+.featured-flowers {
+  padding: 0 240px;
 }
 .special-design {
   display: flex;
@@ -105,4 +106,105 @@ body {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+/* icon section */
+.icon-container {
+  margin: 128px 240px 128px 240px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 320px;
+}
+.icon1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.icon2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.icon3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+/* discount section */
+.discount-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  gap: 160px;
+  padding: 100px 380px 100px 380px;
+}
+
+.discount-details-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.discount-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.discount-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+span {
+  color: #e55473;
+}
+/* instagram section */
+.instagram-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 128px;
+
+}
+.instagram-details-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.insta-description{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 48px;
+}
+.insta-pic-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 128px;
 }

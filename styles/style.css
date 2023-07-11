@@ -14,7 +14,7 @@ body {
 /* header section codes */
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 97px;
   height: 100%;
@@ -28,7 +28,7 @@ body {
 .header-title {
   width: 708px;
   color: #272727;
-  font-size: 80px;
+  font-size: 67px;
   font-weight: 800;
 }
 .header-description {
@@ -173,38 +173,126 @@ span {
   color: #e55473;
 }
 /* instagram section */
-.instagram-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 128px;
+.instagram-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 128px;
+}
+.instagram-details-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.insta-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.insta-description {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.insta-pic-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+/* deals section */
+.deals-container {
+  width: auto;
+  height: 449px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Flower\ Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 128px 230px 128px 230px;
+}
+.deals-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 122px;
+  padding-bottom: 16px;
+}
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 48px;
+}
+.deals-button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 36px;
+}
+.email-input {
+  width: 700px;
+  height: 64px;
+}
 
+.email-input input[type="email"] {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.instagram-details-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.Subscribe {
+  width: 150px;
+  height: 64px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0px white;
 }
-.insta-title{
-    color: #272727;
-font-size: 40px;
-font-weight: 800;
+/* footer section */
+.footer {
+  width: auto;
+  height: 449px;
+  background: #111010;
 }
-.insta-description{
-    width: 594px;
-    color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 48px;
+.footer-details-container {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
+  align-items: center;
 }
-.insta-pic-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 128px;
+.footer-title {
+  padding-top: 128px;
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+}
+.flower-text {
+  color: #e55473;
+}
+.footer-description {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 32px;
 }
